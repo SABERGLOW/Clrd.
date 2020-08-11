@@ -15,4 +15,4 @@ The web-page is be capable of following functionalities:
 * Resetting the Image
 
 # Installation:
-You can either view/edit it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>, or download the files in "src" folder and edit them in your editor of choice. 
+You can either view/edit it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>, or download the files in "Source" folder and edit them in your editor of choice. 
