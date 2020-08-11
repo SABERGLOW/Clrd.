@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Clrd.css" media="screen" />
+		<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+	</head>
+
+	<section class="waves-demo">
+		<div class="waves" data-word="Clrd.🎨">
+			Clrd.🎨
+		</div>
+	</section>
+	<canvas id="can1" class="background"> </canvas>
+	<div>
+		Upload Image:
+		<input
+			type="file"
+			multiple="false"
+			accept="image/*"
+			id="finput"
+			onchange="upload()"
+		/>
+	</div>
+	<div class="frame">
+		<h2>Apply Filter:</h2>
+
+		<button class="custom-btn btn-5" onclick="makeGrey()">
+			<span>GreyScale Filter</span>
+		</button>
+		<button class="custom-btn btn-5" onclick="makeRGB()">
+			<span>RGB Filter</span>
+		</button>
+		<button class="custom-btn btn-5" onclick="makeRainbow()">
+			<span>Rainbow Filter</span>
+		</button>
+		<button class="custom-btn btn-5" onclick="makeRed()">
+			<span>Red Filter</span>
+		</button>
+		<button class="custom-btn btn-5" onclick="makeBlur()">
+			<span>Blur Filter</span>
+		</button>
+
+		<button class="custom-btn btn-5" onclick="resetImage()">
+			<span>Reset Image</span>
+		</button>
+	</div>
+
+	<script src="Clrd.js"></script>
+</html>

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap");
+
+body {
+	text-align: center;
+	font-family: "Jost", sans-serif;
+	height: 100vh;
+	background-color: #1b2845;
+	background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+	scroll-behavior: smooth;
+}
+section {
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	height: 20vh;
+	font-size: 80px;
+	font-weight: bold;
+	transition: all 200ms;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	display: grid;
+	place-items: center;
+	z-index: 1;
+	cursor: pointer;
+	position: relative;
+	scroll-behavior: smooth;
+}
+.waves-demo {
+	background: #9ac;
+}
+/*Waves*/
+.waves {
+	color: transparent;
+	-webkit-text-stroke: 1px #fff;
+	position: relative;
+}
+.waves:after {
+	content: attr(data-word);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	animation: waves 2s ease-in-out infinite forwards;
+}
+@keyframes waves {
+	0%,
+	100% {
+		clip-path: polygon(
+			0 66%,
+			11% 59%,
+			18% 51%,
+			26% 46%,
+			35% 41%,
+			48% 44%,
+			55% 54%,
+			63% 63%,
+			76% 60%,
+			82% 50%,
+			92% 48%,
+			100% 53%,
+			100% 100%,
+			0% 100%
+		);
+	}
+	50% {
+		clip-path: polygon(
+			0 66%,
+			8% 74%,
+			17% 77%,
+			28% 70%,
+			35% 57%,
+			48% 44%,
+			56% 39%,
+			69% 41%,
+			75% 47%,
+			84% 60%,
+			92% 61%,
+			100% 53%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+h1 {
+	font-size: 48px;
+	color: black;
+}
+input {
+	font-size: 11pt;
+}
+.background {
+	background-color: lightgrey;
+}
+canvas {
+	width: 200px;
+	height: auto;
+	margin: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+.frame {
+	width: 90%;
+	margin: 40px auto;
+	text-align: center;
+}
+button {
+	margin: 20px;
+}
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	padding: 5px 5px;
+	border: 2px solid #000;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+}
+
+/* 5 */
+.btn-5 {
+	background: #000;
+	color: #fff;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+}
+.btn-5:hover {
+	background: transparent;
+	color: #000;
+	box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+		7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+.btn-5:before,
+.btn-5:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #000;
+	transition: 400ms ease all;
+}
+.btn-5:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
+}
