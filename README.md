@@ -9,7 +9,7 @@ Clrd. is a project about my simple, yet functional website that uses JS homemade
 The website is designed using HTML5, CSS, and JavaScript. I designed it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>. 
 
 # Features:
-The web-page is be capable of following functionalities:
+The website is be capable of following functionalities:
 * Uploading an Image
 * Applying Filters to it
 * Resetting the Image
