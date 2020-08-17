@@ -3,7 +3,7 @@
 
 
 # Clrd.
-Clrd. is a project about my simple, yet functional website that uses JS homemade algorithms to apply filters on your chosen picture. Have Fun with it :)
+<a href="https://codepen.io/saberglow/pen/OJNypmg"> Clrd. </a> is a web project that uses my own filters implemented in JavaScript to dynamically edit the image. Have Fun with it :)
 
 # Overview:
 The website is designed using HTML5, CSS, and JavaScript. I designed it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>. 
@@ -11,7 +11,12 @@ The website is designed using HTML5, CSS, and JavaScript. I designed it on <a hr
 # Features:
 The website is be capable of following functionalities:
 * Uploading an Image
-* Applying Filters to it
+* Applying Filters:
+  * Greyscale
+  * RGB
+  * Rainbow
+  * Red
+  * Blur
 * Resetting the Image
 
 # Installation:
