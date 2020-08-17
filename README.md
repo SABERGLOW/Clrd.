@@ -3,10 +3,10 @@
 
 
 # Clrd.
-Clrd. is a project about my simple, yet functional web-page that uses JS homemade algorithms to apply filters on your chosen picture. Have Fun with it :)
+Clrd. is a project about my simple, yet functional website that uses JS homemade algorithms to apply filters on your chosen picture. Have Fun with it :)
 
 # Overview:
-The webpage is designed using HTML5, CSS, and JavaScript. I designed it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>. 
+The website is designed using HTML5, CSS, and JavaScript. I designed it on <a href="https://codepen.io/saberglow/pen/OJNypmg"> CodePen </a>. 
 
 # Features:
 The web-page is be capable of following functionalities:
